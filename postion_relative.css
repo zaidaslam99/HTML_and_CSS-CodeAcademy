@@ -1,0 +1,29 @@
+/* Positon Relative */
+div {
+  border: 3px solid red;
+  background: yellow;
+  margin-top: 40px;
+  position: static;
+}
+.one {
+  background: blue;
+  position: relative;
+  /* top: 50px; */
+  /* left: 20rem; */
+  right: 50%;
+  bottom: 20px;
+}
+.two {
+  background: green;
+}
+.special {
+  background: lightcoral;
+  font-size: 20px;
+}
+
+/*  
+    So here lets examine position relative the thing that we need to know is that we created a div and 
+    in it we passed a broder background margin from top and postiton is static which is still then 
+    for for one wha we are doing is tht we changed the postion to relative and what this does is that 
+    it changes the position relative to where it was
+*/

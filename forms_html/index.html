@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formz</title>
+  </head>
+  <body>
+    // enctype is used to send multipe forms to server.
+    <form action="./results.html" method="GET" enctype="multipart/form-data">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required />
+      </div>
+      <div>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="1" max="200" step="5" />
+      </div>
+      <div>
+        <label for="date">Birthday</label>
+        <input type="date" name="date" id="date" min="2019-06-10" />
+      </div>
+      <div>
+        Favourite Food
+        <div>
+          <label for="banana">Banana</label>
+          <input type="checkbox" name="banana" id="banana" />
+        </div>
+      </div>
+      <div>
+        Favourite Food
+        <div>
+          <label for="apple">Apple</label>
+          <input type="checkbox" name="apple" id="apple" />
+        </div>
+      </div>
+      <div>
+        Gender
+        <div>
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="male" value="male" />
+        </div>
+        <div>
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="female" value="female" />
+        </div>
+      </div>
+      <div>
+        <label for="eyeColor">Eye Color</label>
+        <select name="eyeColor" id="eyeColor" multiple>
+          <option value="Green">Green</option>
+          <option label="Red" value="Red">Red</option>
+        </select>
+      </div>
+      <div>
+        <label for="bio">Bio</label>
+        <textarea id="bio" name="bio"></textarea>
+      </div>
+      // Dont show up on the page
+      <input type="hidden" name="hidden" value="hi" />
+      <div>
+        <label for="file">File</label>
+        <input type="file" type="file" name="file" />
+      </div>
+      <div>
+        <label for="phone">Phone</label>
+        <input type="tel" name="phone" id="phone" />
+      </div>
+      <div>
+        <label for="url">URL</label>
+        <input type="url" name="url" id="url" />
+      </div>
+      <div>
+        <label for="color">Color</label>
+        <input type="color" name="color" id="color" />
+      </div>
+      <div>
+        <label>Password</label>
+        <input type="password" name="password" required />
+      </div>
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
+
+<!-- So here the first thing that we need to know is that we are going to be using the results.html
+    with the index.html that is going to be linked back to this page so we are going to be using the 
+    form tag in it we have the action that is linked to the results.html we talked about get and post 
+    what I remmber here is that get is used to get data while post is used to post to the servers we 
+    created many div the first div that we are doing is getting the label and then its getting the 
+    input type important to understand that type is for html so it can pull up that type of modification 
+    to the input so when it comes to name this is used to sort the data and the id is used to target 
+    what we are trying to correlate to in this case the name and the other thing that we are doing is 
+    using required what this does is that the user is programmed to fit the information in same logic 
+    applies using email same goes for age the only thing to understand is that the type is changing 
+    we can specify the min the max and step up when it comes to checkbox the thing that we need to know 
+    here is that all that we can do is check them when it comes to radio it means we can select one button 
+    only we can put multiuple options using the multiple keyword we then have text area which is going to 
+    be getting the text so we can fill it out the file one is to input files and the phone one is to input 
+    phone number when it comes to the color that is rarely used then when it comes to password its 
+    basically to store the passwrod 
+-->

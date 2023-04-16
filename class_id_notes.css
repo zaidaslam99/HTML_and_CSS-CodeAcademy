@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+}
+
+#two {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  background: blue;
+}
+
+/*  
+    So here two things that you need to know is that when working with the class we can group a bunch of div items in one category and when it comes to the id we can then separate them and modify them individually. The other thing we need to know is that class we use dot notation and id we use pound notation #
+*/
+
+/* <body>
+    <div class="box" id="one">One</div>
+    <div class="box" id="two">Two</div>
+    <div class="box" id="three">Three</div>
+    <div class="box" id="four">Four</div>
+  </body> */

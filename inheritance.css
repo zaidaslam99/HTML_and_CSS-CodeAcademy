@@ -1,0 +1,23 @@
+/* INHERITANCE */
+
+body {
+  font-family: monospace;
+  line-height: 1.5em;
+}
+div {
+  color: aqua;
+  border: 3px solid black;
+}
+h2 {
+  color: green;
+}
+
+/* 
+  So here this was something that I had figured out where I was thinking to 
+  myself that the properties are getting over ridden and the ones that need 
+  to be readminsitered should work here something that you need to take 
+  away from here is that this logic is called inheritance and it means that 
+  anything that is written in the base logic is going to be applied and any 
+  other block such as div or h2 that follows its own set of logic will run 
+  but any over ridden principles will be modified
+*/

@@ -1,0 +1,30 @@
+/* transform: translate() */
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background: red;
+  transform: scale(0.5);
+}
+.two {
+  background: green;
+  transform: scaleY(2);
+}
+.three {
+  background: blue;
+  transform: scale(1.5, 0.5);
+}
+
+/* When it comes to working with scale the thing that we need to know is that when we want to change each box x or y direction we can use it when we use it once its going to scale all around then the two we are going to scale on y and the last its going to be on the x and then the y  */
+
+/* 
+  <body>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+  </body>
+*/

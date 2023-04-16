@@ -1,0 +1,23 @@
+body {
+  width: 500px;
+  margin: 0 auto;
+}
+
+p {
+  background: rgba(255, 84, 104, 0.3);
+  border: 2px solid rgb(255, 84, 104);
+  padding: 10px;
+  margin: 10px;
+}
+
+span {
+  background: white;
+  border: 1px solid black;
+}
+
+/* 
+    something that you need to know here is that inline elements are 
+    going to be going to the next line if they are not going to fit in 
+    the container that we created.
+
+*/

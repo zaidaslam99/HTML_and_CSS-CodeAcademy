@@ -1,0 +1,18 @@
+/* COLOR PROPERTIES */
+/* COLOR BACKGROUND-COLOR */
+
+#first {
+  color: lightslategrey;
+  background-color: chocolate;
+}
+#second {
+  color: crimson;
+  background: yellow;
+}
+/*
+  So here lets examine what is going on we have two different id and each are being 
+  modified in thier own way we can use shorthand naming convention where we are 
+  getting the same results where it says background-color we set to choclate and 
+  in the second what we did was we said background and we set it to yellow notice that 
+  we didnt have to go in super detail here  
+*/

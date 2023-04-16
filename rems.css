@@ -1,0 +1,41 @@
+/*  
+  rem - RELATIVE depends on root 
+  1rem -  16px default browser style
+*/
+
+/* root of document */
+html {
+  font-size: 32px;
+}
+div {
+  font-size: 40px;
+}
+.relative {
+  font-size: 2rem;
+}
+.absolute {
+  font-size: 32px;
+}
+
+/*  
+  So what makes this code different from other code here we are working with rem 
+  and the thing to take away here is that rem dont change what this means is that we 
+  no matter how many pixels we write in the div its not going to change the only time 
+  rem changes is when we are working with the root of the document and in this case 
+  its going to be the html tag when it comes to working with ems what we need to know 
+  is that they change when we are working with divs so we can pass in the em and then 
+  pixels and they are going to multiply but rem no matter if we pass in to div nothing 
+  is going to multiply as far as root docuement that is when its going to be multiplying 
+  that is something to be looking out for 
+*/
+
+/*  
+  <body>
+    <div>
+      <h3 class="relative">relative</h3>
+    </div>
+    <div>
+      <h3 class="absolute">absolute</h3>
+    </div>
+  </body>
+*/

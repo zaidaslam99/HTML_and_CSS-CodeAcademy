@@ -1,0 +1,54 @@
+/* Outlne Offset */
+
+.buttons {
+  margin: 3rem;
+}
+
+a {
+  background: #689f3f;
+  text-decoration: none;
+  padding: 1.2rem 1.5rem;
+  color: #222;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+#one {
+  border: 0.2rem solid #222;
+}
+
+#two {
+  outline-width: 0.2rem;
+  outline-style: solid;
+  outline-color: #222;
+  outline: 0.2rem solid #222;
+  /* offsetting outline */
+  outline-offset: 10px;
+  outline-offset: -10px;
+}
+
+/*  
+  So lets examine what is going on here the first thing that we need to know is that we 
+  are working with a div in the body and in it we are passing class that is set to buttons 
+  and when it comes to class we use the dot notation and when it comes to the tag itself 
+  its going to be a{} we are not using dot notation and when it comes to # notation this is 
+  when it comes to working with id its important to understand that we can have the buttons as 
+  the same class however we can have different id for the buttons that is something to be aware 
+  of herewe can then modify each id to our own liking its important to understand that the 
+  outline extends beyond the border notice the one id we are just stating the border and for 
+  two id we are stating the outline and this is extending beyond the border the important thing 
+  to know is that outline is going to modify the border and we can also offset the outline meaning 
+  that we can bring the outline more in that is something that you need to know in regards t 
+  working with outline and how it affects the border
+
+*/
+
+/*  
+  <body>
+    <div class="buttons">
+      <a href="#" id="one">no outline</a>
+      <a href="#" id="two">outline</a>
+    </div>
+  </body>
+*/

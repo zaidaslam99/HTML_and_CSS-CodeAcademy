@@ -1,0 +1,37 @@
+/*  
+  :root root element of the doc html element 
+  general styles 
+  css variables
+  1rem === 16px
+*/
+
+/* This will change the whole background to be red */
+:root {
+  font-size: 150%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+.absolute {
+  font-size: 24px;
+}
+.responsive {
+  font-size: 1.5rem;
+}
+
+/*  
+  Here its important to understand that root is going to be working with the entire window its a reference to the whole window overall the thing to know is that we are working with the font size 
+*/
+
+/* <body>
+    <h1>im heading</h1>
+    <p class="absolute">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, iusto labore
+      rem sint quisquam eveniet est quas modi neque eum!
+    </p>
+    <p class="responsive">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, iusto labore
+      rem sint quisquam eveniet est quas modi neque eum!
+    </p>
+  </body> */

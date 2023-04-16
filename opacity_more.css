@@ -1,0 +1,42 @@
+/* display: none
+opacity:0
+visibiliity:hidden 
+*/
+
+div {
+  background: blue;
+  margin: 10px;
+  color: white;
+}
+.none {
+  display: none;
+}
+.opacity-1 {
+  opacity: 1;
+}
+.opacity-5 {
+  opacity: 0.5;
+}
+.opacity-0 {
+  opacity: 0;
+}
+.visibility {
+  visibility: hidden;
+}
+
+/*  
+  So here lets examine what is going on so we created 5 different div and we are working with 
+  the opacity and the thing to take away here is that when its none then nothing shows wen its 
+  1 then it shines and when 0.5 its halfway and 0 it dulls out and visibility hidden it wont 
+  show something else that you need to know is this that when set to none it shows in the html 
+  css tree but it dont show up in the screen and like it shows something is there but there is 
+  nothing in it 
+*/
+
+/* <body>
+    <div class="none">none</div>
+    <div class="opacity-1">opacity-1</div>
+    <div class="opacity-5">opacity-5</div>
+    <div class="opacity-0">opacity-0</div>
+    <div class="visibility">visibility</div>
+  </body> */

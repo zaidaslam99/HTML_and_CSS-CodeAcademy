@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #12475f;
+  color: white;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 0 30px;
+}
+
+#showcase {
+  height: 300px;
+}
+
+#showcase h1 {
+  font-size: 50px;
+  line-height: 1.3;
+  position: relative;
+  animation: heading;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes heading {
+  0% {
+    top: -50px;
+  }
+  100% {
+    top: 200px;
+  }
+}
+
+#content {
+  position: relative;
+  animation-name: content;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes content {
+  0% {
+    left: -1000px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border: #fff 1px solid;
+  margin-top: 40px;
+  opacity: 0;
+  animation-name: btn;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+
+  transition-property: transform;
+  transition-duration: 1s;
+}
+
+.btn:hover {
+  transform: rotateY(180deg);
+}
+
+@keyframes btn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* So here the thing that we need to know is that animation we have heading and that is going to be in showcase h1 and what we then do is we are using keyframes and using heading and then we do 0 and 100 percent the important thing to understand here is that within the tag we have to specify the keyframe that we are working with and aspect of the animation like duration and stuff and as for the keyframe itself what we are doing is we are working on the different percentage of the animation and what should happen when  */

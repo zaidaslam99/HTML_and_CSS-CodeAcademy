@@ -1,0 +1,18 @@
+/*  
+  font stack generic family
+  serif sans-serif, cursive, fantasy monospace
+*/
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/*  
+  So this code is really simple to understand here but this gives us three 
+  different fonts the first one being Courier New and then Courier and then 
+  monospace and if one isnt there then go for the next and if that is not 
+  there then go for the next that is the logic that is going on here
+*/

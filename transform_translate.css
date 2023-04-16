@@ -1,0 +1,32 @@
+/* transform: translate() */
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background: red;
+  transform: translateX(50%);
+}
+.two {
+  background: green;
+  transform: translateY(-30px);
+}
+.three {
+  background: blue;
+  /* transform: translateX(75px); */
+  transform: translate(20px, 30px);
+}
+
+/*  
+  So here we learned about translate we can use this after using transform and what this does is that it reflects on the x and then it reflects on the Y we can incorporate both the x and the y the other what this does is that 
+  its going to get a box that we create and move it around the grid 
+*/
+
+/* <body>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+  </body> */

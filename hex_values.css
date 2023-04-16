@@ -1,0 +1,30 @@
+/* 
+HSL
+HEX values #RRGGBB
+123456789 A(10) B(11) C(12) D(13) E(14) F(15) 
+*/
+
+#first {
+  color: #ff0000;
+  background: #000;
+}
+
+#second {
+  color: #fff;
+  background: #00ff00;
+}
+
+#three {
+  color: #0000ff;
+  background: #f15025;
+}
+
+#four {
+  color: #f234ad;
+  background: #222;
+}
+
+/*
+  So here we learned about hex values and how they can be used instead 
+  of RGB values 
+*/

@@ -1,0 +1,42 @@
+div {
+  border: 3px solid red;
+  background: darkorchid;
+  margin-top: 40px;
+  position: static;
+}
+.one {
+  background: lightblue;
+}
+.two {
+  background: lightgreen;
+}
+.special {
+  background: lightcoral;
+  font-size: 20px;
+}
+
+/*  
+  So here we are learning about position static and the thing that we need to know here 
+  is that everything stays the same its important to understand that we had created a div 
+  and in it we created two p tags and then gave them a class one and two and a span tag 
+  that is going to have the class special what we did in our div was that we gave it a 
+  border and background and margintop and the postion was static from my understanding 
+  the position was not supposed to move and as far as .one .two .special what we did was 
+  that we gave it a background color
+*/
+
+/* <body>
+    <div>
+      <p class="one">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
+        provident non necessitatibus error porro amet pariatur voluptatum
+        accusantium labore suscipit.
+      </p>
+      <p class="two">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
+        provident non necessitatibus error porro amet pariatur voluptatum
+        accusantium labore suscipit.
+        <span class="special">im absolute</span>
+      </p>
+    </div>
+  </body> */

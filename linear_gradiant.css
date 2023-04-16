@@ -1,0 +1,44 @@
+div {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+}
+.one {
+  background: linear-gradient(to bottom, red, green);
+}
+.two {
+  background: linear-gradient(to top, red, green, blue, yellow);
+}
+.three {
+  background: linear-gradient(150deg, red, green);
+}
+.four {
+  background: linear-gradient(to top right, red, green);
+}
+.five {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9));
+}
+.six {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9));
+}
+
+/*  
+  So here lets examine what is going on the first thing that we are going to be working with 
+  is the the body tag and in it we have created many divs each with thier own classes the 
+  second thing that we did was that we added a liner gradient to it its important to understand 
+  what a linear gradident is it basically changes the flow of the color meaning that its going 
+  to start from one color to another color and slowly morph in the linear gradiant we are putting 
+  the direction adn the color we can use multiple colors we can even do degrees this cause the
+  colors to rotate an important note to understand is this that we are using the linear gradiant 
+  to fuse different colors and we need to use the word (to) which was something to be aware of here 
+  something else that we can do is use the rgba value directly  
+*/
+
+/* <body>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="four"></div>
+    <div class="five"></div>
+    <div class="six"></div>
+  </body> */

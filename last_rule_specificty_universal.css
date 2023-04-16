@@ -1,0 +1,34 @@
+/* Last Rule and Specificity * Universal Selector */
+
+/* Last Rule */
+/* p {
+  color: blue;
+}
+p {
+  color: red;
+} */
+
+/* Specificity */
+/* .red {
+  color: red;
+}
+p {
+  color: blue;
+} */
+
+/* Universal Selector least amount of specifity*/
+* {
+  color: blue;
+}
+
+/* 
+  So this lesson was really important when it comes to understanding css its similar  
+  to learning math PEMDAS here the thing that you need to take away is that there is a 
+  logic that css follows first and foremost its the last rule meaning any last modification 
+  is the one that is going to run the second thing that you need to kow is specificity which 
+  means that the more specific an element is the more it will change this was something new 
+  to me I was like that general rule is going to win but rather that was not the case since 
+  we mentioned class in the second one it ran and changed that lastly we are going to be 
+  covering the universal selector this was going to be changing all the element values to the 
+  set color   
+*/

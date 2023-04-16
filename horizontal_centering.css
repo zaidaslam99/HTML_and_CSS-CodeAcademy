@@ -1,0 +1,24 @@
+/* Horizontal Centering*/
+
+body {
+  text-align: center;
+}
+.block {
+  background: blue;
+  color: white;
+  width: 150px;
+  margin: 0 auto;
+}
+.inline {
+  background: red;
+  color: white;
+}
+
+/* 
+  So here we are learning about horizontal cnetering what we did was that we allgined the 
+  text to center what we want is the boxes to be centered out so the block element what we 
+  are going to do is change the width t 150px and then when it comes to margin which is 
+  basically moving the box by the amount of pixels so what we can do is just say 0 and auto 
+  and what this means is that we want the box to be centered that is something to consider 
+  here centering is an important concept when it comes to learning css 
+*/

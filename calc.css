@@ -1,0 +1,32 @@
+/*  
+  calc()
+  perform math operations +-/*
+  mix and match values  
+*/
+
+* {
+  margin: 0;
+}
+
+.navbar {
+  background: blue;
+  height: 100px;
+  color: white;
+  font-size: 3rem;
+}
+
+.banner {
+  background: red;
+  min-height: calc(100vh - 100px);
+}
+
+/*  
+  So here we are learning about calc and what this is calculating the height 
+  of the screen so take a look at the navbar with the background blue and the 
+  height of 100px ad then color white and font size of 3 rem the second thing 
+  that we need to know is .banner and what this is giving is the background as 
+  red and the minheight is using calc which is going to be 100 vh - 100 pixels 
+  and the 100 pixels are going to be the navbar so that way the screen fits in
+  the scroll and we dont have to scroll all the way down that is something to 
+  be aware of here
+*/

@@ -1,0 +1,28 @@
+/* CSS BOX MODEL */
+
+h1 {
+  background: red;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 25px;
+  padding-right: 50px;
+}
+p {
+  background: blue;
+  /* same padding */
+  /* padding: 50px; */
+  /* first one top and bottom second one left and right */
+  /* padding: 30px 60px; */
+  padding: 20px 40px 60px 10px;
+}
+
+/*  
+  So here lets examine what is going on we are learning about padding the thing 
+  that we need to take away from here is that there is the header and the p tag 
+  the first thing that we need to know is padding is going to be around the 
+  content we can do it many ways the specifc way where we are labeling each of the 
+  sides and then stating it we can do it another way where its universal and it does 
+  padding on all the sides then we do it the two number way where its top and bottom 
+  and left and right and then its all of them where its going to go top right bottom 
+  left 
+*/

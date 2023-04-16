@@ -1,0 +1,16 @@
+body {
+  color: red;
+}
+h1,
+h2 {
+  color: blue;
+}
+
+/* 
+    So this is called grouping selectors the thing that we need to take 
+    away from here is that we can use this naming convention called body 
+    and then change one of the color and the other two what we are doing is 
+    that we are getting the first heading and the second heading and then 
+    we are changing it to blue while the body we are going to be changing it 
+    to red that is something to be aware of here   
+*/

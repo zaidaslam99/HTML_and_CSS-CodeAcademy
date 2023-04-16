@@ -1,0 +1,46 @@
+.banner {
+  border: 5px solid red;
+  padding: 10px;
+}
+/* img {
+  float: left;
+}
+p {
+  clear: left;
+} */
+
+.one {
+  float: right;
+  margin-left: 150px;
+}
+/* .two {
+  float: left;
+} */
+/* p {
+  clear: right;
+} */
+
+/* <body>
+    <div class="banner">
+      <img src="./image_folder/kira_image_one.jpg" class="one" alt="kira" />
+      <!-- <img src="./image_folder/kira_image_one.jpg"  class="two" alt="kira" /> -->
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, dolorum
+        quas labore vero sapiente quia explicabo sint porro ipsa sit dolorem
+        minus nihil assumenda! Dicta, amet libero. Eaque reiciendis quasi vel
+        quibusdam modi mollitia, delectus molestias magni, nemo in quos
+        blanditiis ut quisquam qui nam minus consequuntur quo adipisci veniam?
+      </p>
+    </div>
+  </body> */
+
+/*  
+  So here lets examine what is going on the first thing that we need to know that we are 
+  working with div and in it we are passing an image and then we are passing in a p tag when 
+  it comes to the banner what we did was that we made a border and then padding  we are learning 
+  about float and clear and what we gotta take away from here is that float basically floats the 
+  image and the text is cleared to the specfic direction so if you put float as left then image 
+  is going to be on the left if you put clear as left then its also going to be on the left 
+  the other thing that we can do is float and clear using both the thing that we did here was 
+  that we floated to the right and then for the marginleft we put 150px
+*/

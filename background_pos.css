@@ -1,0 +1,33 @@
+/* background-pos */
+
+div {
+  height: 400px;
+  color: red;
+  height: 200px;
+}
+
+.big-img {
+  background: url("./image_folder/kira_image_one.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.small-img {
+  border: 2px solid red;
+  background: url("./image_folder/kira_image_three.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: bottom;
+  background-position: left;
+  background-position: right;
+  background-position: top;
+}
+.folder-img {
+  background: url("./image_folder/kira_image_two.png");
+  background-size: contain;
+}
+
+/*  
+  So here lets examine this background position is basically positioning the picture 
+  so it can be center bottom left right or top it works for smaller picture easier to 
+  see as far as the bigger picture the logic is going to be the same
+*/

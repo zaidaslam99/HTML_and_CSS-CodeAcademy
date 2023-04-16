@@ -1,0 +1,37 @@
+/* 
+  em - RELATIVE depends on parent
+  lem - 16px default browser style;
+  lem - base value
+*/
+div {
+  font-size: 10px;
+}
+.relative {
+  font-size: 2em;
+}
+.absolute {
+  font-size: 32px;
+}
+
+/*  
+  So lets examine what is going on here the first thing that we need to know is that 
+  we created a div and in it we passed h3 and then we created another div and passed in 
+  another h3 we then passed a class to each of the h3 something that we gotta take away 
+  is that our naming convention we used .relative and .absolute what we are doing is that 
+  we are changing thefont size 1em is equal to 16pixes so they are the same thing now the 
+  important thing to understand here is simple when we are working with the em values its 
+  going to be a reflection of the amount of pixels so say we created the div and specied how 
+  many pixels we need to know that when we are passing in em we are simply multiplying the 
+  amount of pixels by the em value so that is why the .relative is going to be smaller and 
+  .absolute is going to be the same meaning that we can change one part of the bracket and 
+  the other part can be the same
+*/
+
+/* <body>
+    <div>
+      <h3 class="relative">relative</h3>
+    </div>
+    <div>
+      <h3 class="absolute">absolute</h3>
+    </div>
+  </body> */

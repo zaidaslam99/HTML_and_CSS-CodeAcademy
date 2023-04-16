@@ -1,0 +1,31 @@
+/* Default Display Property 
+BLOCK: always starts a new line and takes full width
+INLINE does not start and only takes up as much as content space
+*/
+
+.block {
+  background: blue;
+  color: white;
+  display: inline;
+}
+.inline {
+  background: red;
+  color: white;
+  display: block;
+}
+
+/*  
+  So lets examine what is going on the first thing that we need to know is that we created 
+  a div and in it we passed a block as class then we created a h1 and we passed block as class 
+  then p then block as class we then created a tag which is inline then span tag which is inline 
+  then image tag which isnt specfied its important to understand that links and span tags behave as 
+  inline tags and div h1 and p tags behave as block tags something that we need to be aware here is 
+  that we spearted the tags in blocks and inline specifed in class and we modifed each of them 
+  doing so caused the fonts to change it was block element then two inline elements on the same line 
+  and its important to understand inline dont take the whole room however blocks do so when we are 
+  changing the .block to inline what its going to do is change the tags properties to behave like 
+  inline and when it comes to inline we are changing to block so they are going to change their 
+  behavoir its important to understand that when it comes to working with display we can change 
+  the behavoir of a property so it can act as inline element or it can act as block element that is 
+  something to be aware of here 
+*/

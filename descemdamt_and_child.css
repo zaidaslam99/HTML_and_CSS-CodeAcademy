@@ -1,0 +1,36 @@
+/* Descendant and child combinators */
+
+.header h1 {
+  color: green;
+}
+div h1 {
+  color: red;
+}
+div > h1 {
+  color: blue;
+}
+.header > h1 {
+  color: purple;
+}
+
+/*  
+  The best way to think of this is as a binary 
+  chain meaning that we are working header class then it branches from one to another when we see > this means that its going to be 
+  the child class of div and when it comes so the very first one is going to be specific meaning that its going to be header then h1 and the color is going to be green the second one is going to be div h1 and this means that h1 for all the div the other is going to say 
+  div and h1 as the child so specifically this means that leading to h1 straight not anything in the way notice in our html code we have an li element tag now there is something else that you need to know is that .header then h1 and this goes back to the thing we covered on the top but the .header means that we are working with the header class and not the div 
+*/
+
+/*  
+  <body>
+    <div class="header">
+      <h1>IM child and descendant</h1>
+    </div>
+    <div class="header">
+      <ul>
+        <li>
+          <h1>im descendant</h1>
+        </li>
+      </ul>
+    </div>
+  </body>
+*/

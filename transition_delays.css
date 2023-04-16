@@ -1,0 +1,36 @@
+/*  
+  transition:change over time
+  transition-delay:
+  shorthand:
+*/
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background: red;
+}
+.two {
+  background: green;
+}
+.three {
+  background: blue;
+  /* transition: background 3s 2s;
+  border-radius: 5s 1s; */
+  transition: all 4s 5s;
+}
+.three:hover {
+  border-radius: 50%;
+  background: coral;
+}
+
+/* <body>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+  </body> */
+
+/* Here lets examine this code the first thing that we need to know is that we are working with transtion delays meaning that we can change the transitions all at once using the all the time and which ones the last */

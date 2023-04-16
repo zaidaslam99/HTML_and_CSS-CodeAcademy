@@ -1,0 +1,29 @@
+/* :hover */
+
+p:hover {
+  color: red;
+}
+.header:hover {
+  background: blue;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/*  
+    Here its simple to understand when we are using hover whenever we are going to be using it its going to do whatever is in the brackets
+*/
+
+/* <body>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis
+      explicabo quod laboriosam minus cum vel voluptates optio veniam unde,
+      obcaecati magnam odit, maiores eos magni consequuntur ullam nostrum
+      dolores quo.
+    </p>
+    <div class="header">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, quam?
+    </div>
+    <a href="#">this is a link</a>
+  </body> */

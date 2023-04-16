@@ -1,0 +1,41 @@
+/* background-size */
+
+div {
+  height: 400px;
+  color: red;
+  height: 200px;
+}
+
+.big-img {
+  background: url("./image_folder/kira_image_one.jpg");
+  background-repeat: round;
+  background-size: cover;
+}
+.small-img {
+  border: 2px solid red;
+  background: url("./image_folder/kira_image_three.png");
+  background-size: cover;
+}
+.folder-img {
+  background: url("./image_folder/kira_image_two.png");
+  background-size: contain;
+}
+
+/* 
+  This is very simple to understand we can change the background size 
+  to cover or contain and what it does is the image that we selected its 
+  going to strecth it so it can cover that area and contain means that its 
+  going to repeat as many times but be contained in it  
+*/
+
+/* <body>
+    <div class="big-img">
+      <h1>IM BIG IMAGE</h1>
+    </div>
+    <div class="small-img">
+      <h1>IM SMALL IMAGE</h1>
+    </div>
+    <div class="folder-img">
+      <h1>IM FOLDER IMAGE</h1>
+    </div>
+  </body> */

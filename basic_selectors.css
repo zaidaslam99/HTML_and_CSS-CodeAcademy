@@ -1,0 +1,28 @@
+/* Basic Selectors */
+
+* {
+  color: red;
+}
+#heading {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: blue;
+}
+.heading {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: green;
+}
+p {
+  letter-spacing: 20px;
+}
+
+/* Something that we need to know here is that when it comes to working with basic selectors  that the id is going to be using the # and the class is going to be using the . */
+
+/*  
+  <body>
+    <h1 id="heading">im id heading</h1>
+    <h1 class="heading">im id heading</h1>
+    <p>hello world</p>
+  </body>
+*/

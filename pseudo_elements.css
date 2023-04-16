@@ -1,0 +1,87 @@
+/*  
+    pseudo elements ::before ::after content not element
+    content:''---required
+    img --- does not work
+*/
+p::before {
+  content: "hello ";
+  display: block;
+  background: black;
+  font-weight: bold;
+  font-size: 2rem;
+  color: red;
+}
+
+/* This is going to change the keyword after to red 
+    and with a black background */
+
+/* p::after {
+  content: "after";
+  font-weight: bold;
+  font-size: 2rem;
+  color: red;
+  display: block;
+  background: black;
+} */
+p::after {
+  /* Important to understand that content value needs to be here */
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: green;
+}
+div {
+  width: 60vw;
+  margin: 100px auto;
+  /* border: 2px solid red; */
+  position: relative;
+}
+img {
+  width: 100%;
+  display: block;
+}
+div::before {
+  content: "";
+  border: 2px solid grey;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: -40px;
+  left: -40px;
+  z-index: -2;
+  transition: all 0.5s linear;
+}
+div::after {
+  content: "";
+  border: grey;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: -20px;
+  left: -20px;
+  z-index: -1;
+}
+div:hover::after,
+div:hover::before {
+  top: 0;
+  left: 0;
+}
+
+/*  
+  So here we learned about psuedo elements before and after the one thing that I wanted to highglight 
+  when it comes to working with this is that they are responsible for making the transitions its something 
+  that must be done before or something that must be done after its important to understand that content 
+  is requried in them the other thing that we need to know is that image doesnt work on them
+*/
+
+/*  
+  <body>
+    <p>before and after pseudo elemts</p>
+    <div>
+      <img src="./image_folder/kira_image.jpg" alt="" />
+    </div>
+  </body>
+*/

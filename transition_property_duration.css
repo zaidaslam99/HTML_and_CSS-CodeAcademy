@@ -1,0 +1,39 @@
+/*  
+  transition:change over time
+  transition-property:
+  transiton-duration:
+*/
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+div:hover {
+  background: coral;
+}
+.one {
+  background: red;
+}
+.two {
+  background: green;
+}
+.three {
+  background: blue;
+  transition-property: background, border-radius;
+  transition-duration: 4s, 2s;
+}
+.three:hover {
+  border-radius: 50%;
+}
+
+/*  
+  So here we are working with transiton of the div block what we are working with is property and duration the thing that we need to take away from here is this that what this does is that it makes the box to have a smoother transition where we can set the hover and important to understand that property and duration is used to modify the box
+*/
+/*  
+  <body>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+  </body>
+*/

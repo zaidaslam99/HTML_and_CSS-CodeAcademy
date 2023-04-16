@@ -1,0 +1,32 @@
+/* DIV SPAN */
+
+.green {
+  color: green;
+}
+.red {
+  color: red;
+  background: grey;
+}
+div {
+  color: purple;
+  background: gray;
+}
+span {
+  text-transform: uppercase;
+  color: aqua;
+}
+
+/* 
+  so now we are going to be talking about the difference between div and span its important 
+  to understand that div is more so of a block element and span is more so of an inline element 
+  so its really important to understand the basics we can make a div and span block and in it we 
+  can pass the attributes whatever is in the brackets will be modified div we use more so to work 
+  with an entire block and span we use more so of working with a line within the block the div is 
+  going to be giving a new line to it that is something important to understand the other thing that 
+  we can do is work with titles within it so we can create a class that is within our div what this 
+  does is that it says that hey this is a box and ontop of that this is a class as well and whats 
+  going to happens is then its going to be a box. Something that I learned was that the div and span 
+  follow the instructions even though its working with the class because in the div we have background 
+  to gray and in span we have uppercase its going to execute that but say we send it to a class then its 
+  going to override anything that has been readminsitered 
+*/

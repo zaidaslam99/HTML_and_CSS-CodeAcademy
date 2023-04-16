@@ -1,0 +1,49 @@
+/* Class Selectors */
+.green {
+  color: green;
+}
+.red {
+  color: red;
+  background-color: gray;
+}
+
+#title {
+  font-size: 40px;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+
+/* 
+  So lets examine this code here the first thing that we need to 
+  here is this that we are working with class here the first thing 
+  that we need to know is that we are working grouping so what you 
+  can do in css is group different tags and then style them the 
+  first thing that we are doing here is that we created the same tags 
+  and in them we gave each tags different elements such as red or 
+  green the advantage of doing this is that when we we put classes 
+  we can group them and modify each class so take a look at this code 
+
+*/
+
+/*   <body>
+    <h3 id="title" class="green lowercase">I'm green</h3>
+    <h3 class="red">I'm red</h3>
+    <h3 class="green">I'm green</h3>
+    <h3 class="red">I'm red</h3>
+    <h3 class="green">I'm green</h3>
+    <h3 class="red">I'm red</h3>
+  </body>
+</html>
+ */
+
+/* 
+  Notice how we put each class different even though the tags are the
+  tags are the same something important to understand here is that when working 
+  with class we have to use dot notation .green or .red and we can then modiy 
+  them accordingly the next thing that we need to know is that we can also use 
+  id element or even subclasses notice that the h3 tag has an id element called 
+  title and then the first tag also has a subclass called green lowercase we can 
+  call the subclass with the next keyword and we can modify the code to that is 
+  something to be aware of here   
+ */

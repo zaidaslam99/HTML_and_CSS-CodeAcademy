@@ -1,0 +1,48 @@
+/* LAST RULE Order */
+
+div {
+  height: 400px;
+  color: red;
+  height: 200px;
+}
+
+.big-img {
+  background: url("./image_folder/kira_image_one.jpg");
+  background-repeat: round;
+}
+.small-img {
+  border: 2px solid red;
+  background: url("./image_folder/kira_image_three.png");
+  background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-repeat: space;
+  background-repeat: round;
+}
+.folder-img {
+  background: url("./image_folder/kira_image_two.png");
+}
+
+/*  
+  So here we talked about last rule order and the thing to take away from here is that 
+  we have a div and in it we declared the height the color the height again the thing to 
+  take away from here is that the height is going to change the next thing that we are doing 
+  is that we are using the background repeat what this does is that say if the image can fit 
+  again it changes the patter from repeat to no repeat then to repeat on the x axis or y and 
+  space and round is like adding space and round is max amount that is something to take away 
+  from here  
+*/
+
+/* <body>
+    <div class="big-img">
+      <h1>IM BIG IMAGE</h1>
+    </div>
+    <div class="small-img">
+      <h1>IM SMALL IMAGE</h1>
+    </div>
+    <div class="folder-img">
+      <h1>IM FOLDER IMAGE</h1>
+    </div>
+  </body> */

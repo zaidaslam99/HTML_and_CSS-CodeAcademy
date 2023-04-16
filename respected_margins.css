@@ -1,0 +1,49 @@
+/* Block: Top Bottom Margin Respected
+  Inline: Top Bottom Margin Not Respected
+  Mobile Navbar
+  list-style-type: property
+  descendants selectors
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li {
+  list-style-type: none;
+}
+ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  background: #222;
+  color: #f15025;
+  display: block;
+  padding: 10px 10px;
+}
+
+/*  
+  So here lets examine what we learned the first thing that we need to know is that we are working 
+  with list elements and then we are going to be putting a link inside the list element lets examine 
+  what is going on we are learning new concepts such as ul li a what this means is that hey unordered 
+  list then list element and the link the 3rd one is a reference to the list element and the last one is 
+  a reference to the link for everything we put 0 margin and padding was set to 0 and box size was 
+  set to border box and when it comes to body we changed the font something important that you need to 
+  understand here is that for each of the links and thier texts what we are doing is that we are adding a
+  background and then the color oothe text and we displayed them as block and then added padding and the 
+  cool thing about this is that it gives the website feel like you can see how the webpage is designed 
+  vibes  
+*/
+
+/* <body>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Product</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </body> */

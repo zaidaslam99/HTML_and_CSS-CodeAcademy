@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  color: orange;
+}
+
+.banner {
+  background: url("./image_folder/kira_image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("./image_folder/kira_image.jpg") center/cover no-repeat fixed;
+}
+.colorzilla {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f0b7a1+0,8c3310+50,752201+51,bf6e4e+100;Brown+Gloss */
+  background: #f0b7a1; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #f0b7a1 0%,
+    #8c3310 50%,
+    #752201 51%,
+    #bf6e4e 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #f0b7a1 0%,
+    #8c3310 50%,
+    #752201 51%,
+    #bf6e4e 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #f0b7a1 0%,
+    #8c3310 50%,
+    #752201 51%,
+    #bf6e4e 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); /* IE6-9 */
+}
+
+/*  
+  Now this might seem confusing but what we can do is we can use colorzilla to pickup new fonts and all we 
+  are doing is creating a div and then styling that div with the new color value 
+*/
+
+/* <body>
+    <div class="banner">
+      <h1>hello world</h1>
+    </div>
+    <div class="header">
+      <h1>hello people</h1>
+    </div>
+    <div class="colorzilla"></div>
+  </body> */

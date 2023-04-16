@@ -1,0 +1,76 @@
+/*  
+    Media Queries
+    Responsive Design
+    Style Elements On Different Screen Sizes
+    min-width:start
+    max-width:up to
+    Mobile first
+*/
+body {
+  background: yellow;
+}
+.banner {
+  background: blue;
+  border-radius: 20px;
+}
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 576px) {
+  body {
+    background: red;
+  }
+  .banner {
+    background: yellow;
+  }
+  h1 {
+    color: black;
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background: green;
+  }
+  .banner {
+    background: blue;
+  }
+  h1 {
+    color: red;
+    font-size: 60px;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+
+/* upto */
+/* @media screen and (max-width: 768px) {
+  body {
+    background: green;
+  }
+  .banner {
+    background: blue;
+  }
+  h1 {
+    color: red;
+    font-size: 60px;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+} */
+
+/*  
+    So here lets examine what is going on the first thing that we need to know is that we are 
+    working with media screen and in it we can pass in a value its important to understand that 
+    the format is going to be how you see it above where we are doing something else that we need 
+    to know is that there is this thing called max width and in it its important to understand that 
+    its up to that value and with min its up to the statements are similar to working with conditional 
+    statements something else to know is that media screen is going to be changing the text depening 
+    on the screen size this is used for say if you design a wesbite and need to change it say per 
+    phone or tablet or anything
+*/

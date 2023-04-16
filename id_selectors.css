@@ -1,0 +1,28 @@
+/* ID */
+
+#heading {
+  color: green;
+  background: black;
+}
+#subheading {
+  color: red;
+  background: green;
+}
+
+/*  
+    So here examine the code below and you can see that we are using the id part and the best 
+    way to understand this is that we are giving the id to a tag and then we are changing it 
+    its really self explantory to understand the only thing that we need to know when giving 
+    id is that when it comes to making the id there is no number sign and when we make it in 
+    the css part we make sure that we are going to be putting in a number sign and in this case 
+    its going to be #heading and #subheading that is something to be aware of here
+*/
+
+/* </head>
+  <body>
+    <h1 id="heading">Title heading</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit ea ab corporis facere quam aliquid magnam, ratione omnis aut ipsa doloremque quae dolores dolore odio expedita. Provident, veniam nisi.</p>
+    <h1 id="subheading">Footer heading</h1>
+    </p>
+  </body>
+</html> */

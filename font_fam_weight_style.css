@@ -1,0 +1,55 @@
+/* GOOGLE FONTS */
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+
+body {
+  /* font-family: "Audiowide", sans-serif; */
+  font-family: "Noto Sans JP", sans-serif;
+}
+.main {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.subheading {
+  font-style: normal;
+}
+.one {
+  font-weight: 700;
+  font-style: italic;
+}
+.two {
+  font-weight: 900;
+  font-style: oblique;
+}
+
+/*  
+  So here lets examine what is going on the first thing that we need to know is that we 
+  can select different fonts we can use google fonts to choose the different fonts we 
+  have to import the html line which is going to be a link and then its important to 
+  reference to our stylesheet and then in the css we import the url and then the 
+  font in order to work with a font with google fonts
+*/
+/*  
+  So here there is something else that we need to know we are going to be covering font 
+  family and fonnt style and that is what font you want and how thick do you want that 
+  font to be something else that we learned was that when it comes to inheritance say for 
+  the body we are passing in the font and in the main we are going to be passing in a font 
+  and then we are passing in the subheading font style and this is going to be since we 
+  specifed what font we want in class one and two their weight which is how thick and the 
+  style which is which style and family is which font we wat but since subheading we are 
+  saying that hey we want the normal font that is something to be aware of here 
+*/
+
+/* <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Tutorial</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head> */

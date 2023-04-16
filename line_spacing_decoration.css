@@ -1,0 +1,61 @@
+/* 
+  line height
+  line spacing
+  word spacing
+  text transform
+  text decoration
+*/
+
+a {
+  font-size: 40px;
+  text-decoration: none;
+}
+body {
+  text-transform: uppercase;
+}
+h1 {
+  text-transform: lowercase;
+  text-decoration: line-through;
+}
+.one {
+  line-height: 2.5ems;
+}
+.two {
+  letter-spacing: 5px;
+  text-decoration: overline;
+  line-height: 2rem;
+}
+.three {
+  word-spacing: 20px;
+  text-decoration: underline;
+}
+
+/*  
+  So this is the typography of the css part its important to understand that when it comes 
+  to working with the link we can change the font size and then the text decoration and they 
+  are self explantory but text decoration removes the line that is from underneath when it comes 
+  to the body we are changing the text to uppercase when it comes to h1 we are changing the text 
+  to lowercase and then when it comes to decoration we are chaning the line to line through when 
+  it comes to line height that is the line that is  ontop of the words we can change that when it
+  comes to letter spacing that is duh 
+*/
+
+/* <body>
+    <a href="#">GOOGLE</a>
+    <h1>Hey I am the main heading</h1>
+    <p class="one">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
+      deleniti sunt aspernatur aperiam accusantium ex voluptas, soluta odio
+      optio culpa, asperiores hic consectetur quos unde?
+    </p>
+    <p class="two">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
+      deleniti sunt aspernatur aperiam accusantium ex voluptas, soluta odio
+      optio culpa, asperiores hic consectetur quos unde?
+    </p>
+    <p class="three">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
+      deleniti sunt aspernatur aperiam accusantium ex voluptas, soluta odio
+      optio culpa, asperiores hic consectetur quos unde?
+    </p>
+  </body> */

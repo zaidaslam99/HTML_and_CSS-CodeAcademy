@@ -1,0 +1,30 @@
+.center {
+  margin: auto;
+  background: lime;
+  width: 66%;
+}
+.outside {
+  margin: 3rem 0 0 -3rem;
+  background: cyan;
+  width: 75%;
+}
+.random {
+  margin: 1rem 10rem 6rem 15px;
+  background: red;
+  color: white;
+  width: 80%;
+}
+
+/*  
+    So here I have a rough idea of what margin does and its simple its positoning each div element away from one another and when it comes to padding it works more so of inline away from the border while margin is working more so of away from another div
+*/
+
+/*  
+  <body>
+    <div class="center">This element is centered</div>
+    <div class="outside">
+      This element is positioned outside of its container.
+    </div>
+    <div class="random">This is going to be positioned randomly</div>
+  </body>
+*/

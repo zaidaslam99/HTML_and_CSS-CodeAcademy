@@ -1,0 +1,37 @@
+/* Positon fixed */
+button {
+  background: red;
+  font-size: 40px;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+div {
+  border: 3px solid red;
+  background: yellow;
+  margin-top: 40px;
+  /* position: relative; */
+}
+.one {
+  background: blue;
+}
+.two {
+  background: green;
+}
+.special {
+  background: lightcoral;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
+
+/*  
+    So the important thing to know about postion fixed is that say we are working with a page that has a 
+    lot of text and scrolling what we do is that we can use positon fixed and here we created the 
+    button and then fixed the position top 0 and right 0 what this does is that it fixes the button 
+    on the top right of the page so when we scroll we are always going to see the button that is something 
+    to be aware of here since the html code is so much its important to understand that we are 
+    creating a button after working with alot of paragraphs 
+*/

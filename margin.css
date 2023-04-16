@@ -1,0 +1,33 @@
+/*  
+  MARGIN
+*/
+
+/* * {
+  margin: 0;
+} */
+
+h1 {
+  background: red;
+  padding: 20px;
+  /* Get rid of top margin */
+  margin-bottom: 0;
+  margin: 30px;
+}
+p {
+  /* Get rid of bottom margin */
+  margin-top: 0;
+  background: blue;
+  margin: 50px 20px;
+  margin: 100px 20px 20px 50px;
+}
+
+/*  
+  So when it comes to working with margin the thing that we need to be aware of here 
+  is this that margin is basically going to be the space that is between each of the 
+  background the thing that we need to be aware of here is simple that when making our 
+  margin we can add space to it or we can remove space overall margin works similar to 
+  padding the only thing that we need to know here is this that we need to write 0 and 
+  not with px and we have to do it with bottom of h1 and the top of p tag and what this 
+  does is that it separates the space between the top and the bottom that is something 
+  to be aware of here  
+*/

@@ -1,0 +1,12 @@
+/* ::first-line ::first-letter */
+p::first-line {
+  font-weight: bold;
+}
+p::first-letter {
+  font-size: 3rem;
+}
+
+/*  
+  This is really simple to understand the p tag 
+  and the first line we want bold and then the first letter font size 3rem simple
+*/

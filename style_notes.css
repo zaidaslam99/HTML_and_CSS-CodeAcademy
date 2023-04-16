@@ -1,0 +1,18 @@
+h1 {
+  color: blue;
+  font-size: 4rem;
+}
+h2 {
+  color: cadetblue;
+  font-size: 4rem;
+}
+
+/*  
+    So this is what I call the styling way the thing to take away from here is 
+    this that when we were working with inline and external line they both had 
+    their good but they also had some drawbacks the first thing to take away from 
+    here is this that we are going to be creating the h1 tag and the second thing 
+    is that we are creating the h2 tag and notice the {} in it we are writting what we 
+    want done this is similar to json approach to writting things down the other 
+    thing to take away from here is that its written more so in object point of view
+*/

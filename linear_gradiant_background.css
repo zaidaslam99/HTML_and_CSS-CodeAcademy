@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  color: orange;
+}
+
+.banner {
+  background: url("./image_folder/kira_image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("./image_folder/kira_image.jpg") center/cover no-repeat fixed;
+}
+
+/*  
+  So lets examine what is going on we created two div and then we created two h1 tags each 
+  with thier own tag content the first thing that we need to know is that for each of the 
+  div we added margin then padding then box sizing then for the div what we did was we gave a 
+  min height as 100vh then the display we changed as flex and the align we changed as center 
+  the justify content was center and text aligin was center fontsize of text is 60px and the 
+  color was orange when it came to the banner what we did was that chose an image as the 
+  background and changed it to cover and no repeat and postion fixed and attachement fixed 
+  the new things that we are leanring is how can we use the linear gradiant when it comes to 
+  websites and the important thing to understand here is this that linear gradiant just modify 
+  the images its like color editing something new that we leanred was that we can use everything 
+  that we typed in one line as you see above 
+
+*/
+
+/* <div class="banner">
+      <h1>hello world</h1>
+    </div>
+    <div class="header">
+      <h1>hello people</h1>
+    </div>
+  </body> */

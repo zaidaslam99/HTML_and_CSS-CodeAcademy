@@ -1,0 +1,29 @@
+/*  
+  vh - height - percent of the screen
+  vw - width - percent of the screen
+*/
+
+.banner {
+  width: 50vw;
+  height: 50vh;
+  background: red;
+}
+.header {
+  width: 100vw;
+  height: 100vh;
+  background: blue;
+}
+
+/*  
+  So lets examine this code the first thing that we need to understand is that 
+  we are working with .banner and .header these are two different div with two 
+  different classes the second thing that we need to know is that we are 
+  changing the width and the height and when it comes to working with width and 
+  height its going to reflect on the percentage of the screen so the first banner 
+  is going to be 50percent and the second banner is going to be 100 percent 
+*/
+
+/* <body>
+    <div class="banner"></div>
+    <div class="header"></div>
+  </body> */

@@ -1,0 +1,26 @@
+/* Percent Values - RELATIVE */
+
+.outer {
+  width: 200px;
+  height: 500px;
+  background: blue;
+}
+
+.inner {
+  width: 90%;
+  height: 10%;
+  background: red;
+}
+
+/*  
+  So lets examine what is going on here we created the outer layer and in it we 
+  passed the width height and the background what we then did was that we created the 
+  inner layer its important to understand that we can use percentage values the outer is 
+  going to represent the box width and the height of the box and the background in this 
+  case its going to be blue notice that we defined the outer with a hard pixel and the 
+  inner we stated that hey we want the width to be 90% and height to be 10% and we want 
+  the background to be red its really important to understand that we are working with 
+  different div the outer div and the inner div something else that we need to know here 
+  is this that the percentage works only when we have a set amount here if we dont have 
+  a set amount then the percentage is not going to work they are intercorelated
+*/

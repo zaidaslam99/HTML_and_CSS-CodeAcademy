@@ -1,0 +1,41 @@
+/* background-pos */
+
+div {
+  height: 400px;
+  color: red;
+  height: 200px;
+}
+
+.big-img {
+  background: url("./image_folder/kira_image_one.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.small-img {
+  border: 2px solid red;
+  background: url("./image_folder/kira_image_three.png");
+  background-repeat: no-repeat;
+  background-position: 20% 50%;
+}
+.folder-img {
+  background: url("./image_folder/kira_image_two.png");
+  background-size: contain;
+}
+
+/*  
+  background position percent means that we are changing the position of the picture here 
+  the the first number is going to be the X and the second one us the Y so we move 20percent 
+  to the x and 50 percent to the y that is all 
+*/
+
+/* <body>
+    <div class="big-img">
+      <h1>IM BIG IMAGE</h1>
+    </div>
+    <div class="small-img">
+      <h1>IM SMALL IMAGE</h1>
+    </div>
+    <div class="folder-img">
+      <h1>IM FOLDER IMAGE</h1>
+    </div>
+  </body> */

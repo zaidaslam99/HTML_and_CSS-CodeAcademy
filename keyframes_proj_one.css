@@ -1,0 +1,54 @@
+body {
+  background: #333;
+}
+
+.box {
+  background: white;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  animation-name: myanimation;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  /* animation-delay: 2s; */
+  /* animation-direction: alternate; */
+  animation-timing-function: linear;
+
+  // Keeps the last animation
+  animation-fill-mode: forwards;
+}
+
+@keyframes myanimation {
+  0% {
+    background-color: white;
+    left: 0px;
+    top: 0px;
+    border-radius: 0 0 0 0;
+  }
+  25% {
+    background-color: red;
+    left: 300px;
+    top: 0px;
+    border-radius: 50% 0 0 0;
+  }
+  50% {
+    background-color: green;
+    left: 300px;
+    top: 300px;
+    border-radius: 50% 50% 0 0;
+  }
+  75% {
+    background-color: blue;
+    left: 0px;
+    top: 300px;
+    border-radius: 50% 50% 50% 0;
+  }
+  100% {
+    background-color: white;
+    left: 0px;
+    top: 0px;
+    border-radius: 50% 50% 50% 50%;
+  }
+}
+
+/* So here we need to understand that we are going to be creating a box and then in the html all we did was that we created a div with the class of box and in the box the important thing to understand is that we are running a bunch of animations in there and one of the most important thing to know is that animation name and that is really simple what we need to know here is that this is going to be matching the animation keyframes and when it comes to the border radius this shows us how the different animation percentages work its important to understand that the keyframes handles the percentage of at what point what we want done and when it comes to the box itself we need to know that handles the general animation. */

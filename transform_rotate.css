@@ -1,0 +1,24 @@
+/* transform: rotate() */
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background: red;
+  /* transform: rotate(340deg); */
+}
+.two {
+  background: green;
+  transform: rotateZ(45deg);
+}
+.three {
+  background: blue;
+  transform: rotateX(20deg);
+}
+
+/* 
+  The best way to understand rotate is that its going to be rotating the div box that we made is going to be going to be rotating around 
+*/

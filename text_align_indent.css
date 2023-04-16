@@ -1,0 +1,52 @@
+/* GOOGLE FONTS */
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+
+/*  
+  text align 
+  text indenent
+*/
+
+body {
+  /* font-family: "Audiowide", sans-serif; */
+  font-family: "Noto Sans JP", sans-serif;
+  /* text-align: right; */
+}
+.main {
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: center;
+}
+.subheading {
+}
+.one {
+  text-indent: 50px;
+}
+.two {
+  text-align: left;
+}
+
+/*  
+  So here lets examine what is going on we are learning about text indent and 
+  text align the thing that we need to take away from here is this that text 
+  align is basically aligning the text to either right left or center and indenet 
+  is duh
+
+*/
+
+/* <body>
+    <h1 class="main">hey dude I am main heading</h1>
+    <p class="one">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+      sapiente tempora libero ipsa perspiciatis. Molestiae ea libero ab
+      asperiores a, eius praesentium, consequatur voluptas, aspernatur error
+      provident veritatis repellat repudiandae impedit. Tenetur ipsam earum
+      porro facilis laudantium sit adipisci aliquid. Obcaecati ut unde ipsa
+      voluptatem eligendi officiis dolorem a quibusdam.
+    </p>
+    <h1 class="subheading">subheading</h1>
+    <p class="two">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quia, nulla,
+      est facere quaerat quisquam dolorem voluptatum sit dolorum maiores, rem
+      tempora minus repudiandae ipsa?
+    </p>
+  </body> */

@@ -1,0 +1,28 @@
+/* Positon Absolute */
+div {
+  border: 3px solid red;
+  background: yellow;
+  margin-top: 40px;
+  /* position: relative; */
+}
+.one {
+  background: blue;
+}
+.two {
+  background: green;
+}
+.special {
+  background: lightcoral;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
+
+/*  
+    Here we are learning about position absolute its important to understand that when 
+    position absolute works to the body when there is no position relative there so for example 
+    our div has position relative therefore what its going to be doing is that become absolute 
+    relative to the div and if it wasnt then its going to be absolute relative to the body since 
+    we have not specified a relative that 
+*/

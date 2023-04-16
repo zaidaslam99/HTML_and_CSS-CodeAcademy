@@ -1,0 +1,18 @@
+h4 {
+  background-color: yellow;
+  padding: 20px 50px;
+}
+h3 {
+  background-color: yellow;
+  padding: 110px 50px 50px 110px;
+}
+
+/*  
+    Here the thing that we need to know is that padding is the space between the content and its border so here we can see that we are creating we are offsetting the text in a way where its getting further from the border
+
+*/
+
+/* <body>
+    <h4>This element has moderate padding</h4>
+    <h3>The padding is huge in this element</h3>
+  </body> */

@@ -1,0 +1,41 @@
+div {
+  height: 400px;
+  color: red;
+}
+.big-img {
+  background: url("./image_folder/kira_image_one.jpg");
+}
+.small-img {
+  background: url("./image_folder/kira_image_three.png");
+}
+.folder-img {
+  background: url("./image_folder/kira_image_two.png");
+}
+
+/* 
+  So lets examine what is going on here the first thing we need to know is that we are using the 
+  div and in it we are passing in the h1 tags we give classes to our div and when it comes to the 
+  css element what we are doing is that we strucuring our div so that we can get the height 
+  which is going to be 400px and then color red which is going to be the text color and in our 
+  div we have the h1 tag and we have their color set to red that is something to be aware of here 
+  something new that we are learning is how to use images its simple we use the classes that we 
+  created and then we for background we are going to use url which is going to reference where the 
+  image is and then we get that image something important to know here is this that we have our header in 
+  the div and for the div we specifed red this means anything that is in our div is rd and when it comes 
+  to image placement its important to understand that image size reflects the output of the screen 
+  if the image is to small then its going to be duplicated more on the screen and its not going to be in 
+  one shot something to be aware of here 
+
+*/
+
+/* <body>
+    <div class="big-img">
+      <h1>IM BIG IMAGE</h1>
+    </div>
+    <div class="small-img">
+      <h1>IM SMALL IMAGE</h1>
+    </div>
+    <div class="folder-img">
+      <h1>IM FOLDER IMAGE</h1>
+    </div>
+  </body> */

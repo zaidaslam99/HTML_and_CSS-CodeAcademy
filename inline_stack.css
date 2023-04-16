@@ -1,0 +1,25 @@
+/* inline block */
+
+a {
+  font-size: 60px;
+  background: red;
+  display: inline-block;
+}
+
+/*  
+  So here lets examine what is going on the first thing that we need to know is that 
+  we created a h1 tag and then we created an a tag and in the a tag what we did was that 
+  we changed the font size and the background and for the display what we did was we 
+  did an inline block what this does is that when we do margins it treats the inline elements 
+  as blocks and we dont have to stack them ontop of one another that is something to be aware 
+  where this is teaching that not only can we stack different elements on each other but we 
+  can also stack each element inline next to each other 
+*/
+
+/* <body>
+    <h1>hello world</h1>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+  </body> */

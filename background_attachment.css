@@ -1,0 +1,62 @@
+/* background-attachment */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  min-height: 100vh;
+  color: green;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.big-img {
+  background: url("./image_folder/kira_image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.small-img {
+  border: 2px solid red;
+  background: url("./image_folder/pexels_japan.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.folder-img {
+  background: url("./image_folder/kira_image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/*  
+  So here lets examine what is going on the first thing that we need to cover is that we are working 
+  with div and then h1 tags refer to html code down below the second thing that we are doing is that for 
+  all the div we are creating margin and then we are doing padding and the box size we have borderbox 
+  that what gives it that clean crispy website look in each of the div we are using min height which is 
+  making the code more smaller then we are centering the text that is something to be aware of here no 
+  for the big img what we are doing is we are getting an image from the background using url and then we
+  are covering it not repeating and center and fixed so when the slides move they dont its important to 
+  understand that background attachement is making sure the text dont move and stay fixed that is something 
+  to be aware of here
+*/
+
+/* <body>
+    <div class="big-img">
+      <h1>IM BIG IMAGE</h1>
+    </div>
+    <div class="small-img">
+      <h1>IM SMALL IMAGE</h1>
+    </div>
+    <div class="folder-img">
+      <h1>IM FOLDER IMAGE</h1>
+    </div>
+  </body> */

@@ -1,0 +1,16 @@
+/* font size font family */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* 
+  Very simple to understand the font family is basically going 
+  to be the basic template and the h1 is going to be the font family 
+  Verdana we learned about inheritance where if declared for whole 
+  body its going to look that way unless specified otherwise the 
+  same logic just with text manipulation here   
+*/

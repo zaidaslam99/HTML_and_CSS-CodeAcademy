@@ -1,0 +1,17 @@
+/* font-size width, height, pixels */
+h1 {
+  font-size: 60px;
+  width: 200px;
+  height: 300px;
+  background: blue;
+}
+
+/*  
+  So here this is known as an absolute value the important thing 
+  to take away here is that we can change the font size the width
+  something that we are learning is absolute value what this means 
+  is that no matter how much you play with the screen the values are 
+  not going to change a pixel is a unit of meaursement it represents 
+  one dot the width and height is going to be the dimensions and the 
+  background is going to be the color
+*/
